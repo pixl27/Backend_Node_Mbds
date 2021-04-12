@@ -10,7 +10,7 @@ let AssignmentSchema = Schema({
     nom: String,
     rendu: Boolean,
     auteur: String,
-    matiere: Number,
+    matiere: String,
     note: Number ,
     remarque: String
 });
