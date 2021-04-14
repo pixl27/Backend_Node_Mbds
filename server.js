@@ -5,7 +5,7 @@ let bodyParser = require('body-parser');
 let assignment = require('./routes/assignments');
 let matiere = require('./routes/matieres');
 var user = require('./routes/users');
-var VerifyToken = require('./VerifyToken');
+var VerifyToken = require('./routes/VerifyToken');
 
 let mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
