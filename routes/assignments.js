@@ -16,7 +16,7 @@ function getAssignments(req, res){
 */
 
 // Récupérer tous les assignments (GET), AVEC PAGINATION
-function getAssignments(req, res) {
+function getAssignments(req, res,next) {
   var aggregateQuery = Assignment.aggregate();
   
   Assignment.aggregatePaginate(
