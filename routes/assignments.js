@@ -70,7 +70,7 @@ function postAssignment(req, res) {
 }
 
 // Update d'un assignment (PUT)
-function updateAssignment(req, res) {
+function updateAssignment(req, res,next) {
   console.log("UPDATE recu assignment : ");
   console.log(req.body);
   Assignment.findByIdAndUpdate(
