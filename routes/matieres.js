@@ -16,7 +16,7 @@ function getMatieres(req,res) {
 // Récupérer un assignment par son id (GET)
 function getMatiere(req, res) {
   let matiereId = req.params.id;
-
+//fix
   Matiere.findOne({ _id: matiereId }, (err, matiere) => {
     if (err) {
       res.send(err);
