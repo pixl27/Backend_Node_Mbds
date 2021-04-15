@@ -49,7 +49,7 @@ Projet Backend Node MBDS
 		=> pour lancer, executer la commande : ng serve
 
 #Vidéo démo:
-	.
+	. https://www.youtube.com/watch?v=IX7pO8FK2p8
 		
 #Login:
 	- Admin:
